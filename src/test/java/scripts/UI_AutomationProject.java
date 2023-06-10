@@ -141,7 +141,7 @@ public class UI_AutomationProject extends Base {
         WebElement consentInput = driver.findElement(By.cssSelector("div[class='field']:nth-child(7) input"));
         WebElement submitLabel = driver.findElement(By.cssSelector(".is-link"));
 
-        inputFullName.sendKeys("Yhehia Akif");
+        inputFullName.sendKeys("Sandina Dakhel");
         genderInput.get(0).click();
         addressInput.sendKeys("683 N Katherine Ln");
         emailInput.sendKeys("yahya_waad@yahoo.com");
